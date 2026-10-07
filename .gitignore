@@ -1,0 +1,23 @@
+# Python / editor
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+frontend/.env.local
+.env
+.idea/
+.vscode/
+
+# generated local data and logs
+backend/var/*
+!backend/var/.gitkeep
+*.log
+
+# archives and OS noise
+*.zip
+*.tar.gz
+.DS_Store
